@@ -34,7 +34,6 @@ class InstrumentFamilyView {
     this.container.appendChild(instrumentList);
   };
 
-
   createElement(elementType, text) {
     const element = document.createElement(elementType);
     element.textContent = text;
@@ -52,7 +51,7 @@ class InstrumentFamilyView {
 
     return list;
 
-};
+  };
 };
 
 // InstrumentFamilyView.prototype.bindEvents = function () {
